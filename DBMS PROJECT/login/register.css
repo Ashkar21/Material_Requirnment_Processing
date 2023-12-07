@@ -1,0 +1,88 @@
+html {
+    background-color: #333;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    color: #BD53ED;
+    margin: 20px 0;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #BD53ED;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+.navbar ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin: 0;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 15px;
+    font-size: 18px;
+    display: block;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar ul li a:hover {
+    color: #FF69B4;
+}
+
+/* Form */
+.registration-form {
+    background-color: #fff;
+    border: 2px solid #BD53ED;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 400px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #BD53ED;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #FF69B4;
+}
+
